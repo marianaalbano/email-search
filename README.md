@@ -1,4 +1,4 @@
-# PyMail
+# Python-Mail
 
 ## Sumário
 
