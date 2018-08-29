@@ -5,13 +5,13 @@ from subprocess import check_call
 
 
 setup(
-    name='email-search',
+    name='pymail',
     version='1.0.0',
-    url='https://github.com/marianaalbano/email-search.git',
+    url='https://github.com/marianaalbano/pymail',
     license='MIT',
     author='Mariana Albano',
     author_email='mariana.albano@outlook.com',
-    description='Module to search email',
-    py_modules=['email-search'],
+    description='Email management module',
+    py_modules=['python-mail'],
     install_requires=['imaplib','email']
 )
