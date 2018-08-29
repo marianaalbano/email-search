@@ -7,7 +7,7 @@ import datetime
 from time import sleep
 
 
-class search():
+class Search():
     def __init__(self, email_box):
             email = os.environ['EMAIL']
             passwd = os.environ['PASSWD']
