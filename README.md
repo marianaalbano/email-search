@@ -1,4 +1,4 @@
-# Python Email-Search
+# PyMail
 
 ## Sumário
 
