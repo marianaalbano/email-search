@@ -1,7 +1,13 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+longdesc = """
+Esse módulo foi criado com o objetivo de realizar a busca de mensagens na caixa de e-mail de forma
+simplificada e intuitiva utilizando o módulo imaplib para conexão.
+
+A instalação pode ser feita utilizando: 
+``pip install git+https://github.com/marianaalbano/python_mail.git``.
+
+"""
 
 setuptools.setup(
     name="python_mail",
@@ -10,7 +16,7 @@ setuptools.setup(
     author_email="mariana.albano@outlook.com",
     description="management email",
     license='MIT License',
-    long_description=long_description,
+    long_description="Esse módulo foi criado com o objetivo de realizar a busca de mensagens na caixa de e-mail de forma simplificada e intuitiva utilizando o módulo imaplib para conexão.",
     long_description_content_type="text/markdown",
     url="https://github.com/marianaalbano/python_mail.git",
     packages=setuptools.find_packages(),
