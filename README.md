@@ -1,5 +1,8 @@
 # Python Mail
 
+[![Documentation Status](https://readthedocs.org/projects/python-mail/badge/?version=latest)](https://python-mail.readthedocs.io/en/latest/?badge=latest)
+
+
 ## Sumário
 
 > * [Introdução](#introdução)
