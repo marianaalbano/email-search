@@ -18,7 +18,6 @@ Esse módulo foi criado com o objetivo de realizar a busca de mensagens na caixa
 
 
 ## Instalando o módulo
-
   - Para a instalação utilize:
 
   ```bash
@@ -67,6 +66,8 @@ Esse módulo foi criado com o objetivo de realizar a busca de mensagens na caixa
       ```batch
       > set PASSWD='password' 
       ```
+
+
 ## Exemplos
 
   ### Configuração inicial
@@ -98,7 +99,7 @@ Esse módulo foi criado com o objetivo de realizar a busca de mensagens na caixa
 
 
     - Para obter o conteúdo completo das mensagens:
-
+    
     ``` python
         
         data_message = search.result_message(id_message)
