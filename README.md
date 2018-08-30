@@ -9,7 +9,7 @@
 >   * [Windows](#variáveis-de-ambiente-no-windows)
 > * [Exemplos](#exemplos)
 >   * [Configuração inicial](#configuração-inicial)
->   * [Filtrando mensagens](#buscando-mensagens)
+>   * [Filtrando mensagens](#filtrando-mensagens)
 >   * [Resultado](#resultado)
 
 ## Introdução
@@ -84,7 +84,6 @@ Esse módulo foi criado com o objetivo de realizar a busca de mensagens na caixa
   Os filtros podem ser feitos por: Body, From e Subject.
 
   ``` python
-      
       id_message = search.search_body('Body Message')
 
       id_message = search.search_from('example@email.com')
@@ -95,40 +94,31 @@ Esse módulo foi criado com o objetivo de realizar a busca de mensagens na caixa
 
   O retorno dos métodos acima serão o ID das mensagens que foram encontradas.
 
-  ### Filtrando mensagens
-
-
-    - Para obter o conteúdo completo das mensagens:
+  ### Resultado
+  
+   - Para obter o conteúdo completo das mensagens:
     
-    ``` python
-        
-        data_message = search.result_message(id_message)
-
-    ```
-
-    - Para obter a data das mensagens:
+      ```python
+       data_message = search.result_message(id_message)
+      ```
+         
+   - Para obter a data das mensagens:
     
-    ``` python
-        
+      ```python
         data_message = search.result_date(id_message)
+      ```
 
-    ```
-
-    - Para saber o remetente das mensagens:
+   - Para saber o remetente das mensagens:
     
-    ``` python
-        
+      ```python
         data_message = search.result_from(id_message)
+      ```
 
-    ```
-
-    - Para saber o destinatário das mensagens:
+   - Para saber o destinatário das mensagens:
     
-    ``` python
-        
+      ```python 
         data_message = search.result_to(id_message)
-
-    ```
+       ```
 
   Todos os métodos listado acima devem receber uma lista como parâmetro.
 
