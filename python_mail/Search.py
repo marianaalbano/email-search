@@ -9,7 +9,7 @@ class Search():
     def __init__(self, email_box):
             email = os.environ['EMAIL']
             passwd = os.environ['PASSWD']
-            connect = os.environ['CONNECT-IMAP']
+            connect = os.environ['CONNECT_IMAP']
             self.mail = imaplib.IMAP4_SSL(connect)
             self.mail.login(email, passwd)
             self.mail.list()
