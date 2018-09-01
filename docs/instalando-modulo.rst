@@ -16,8 +16,8 @@ Também é possível fazer o download do módulo em:
 
    https://github.com/marianaalbano/python_mail.git
 
-Faça o download do arquivo python_mail-1.0.1.tar.gz e faça a instalação:
+Faça o download do arquivo python_mail-<version>.tar.gz e faça a instalação:
 
 .. code-block:: sh
 
-   pip install <download_path>/python_mail-1.0.1.tar.gz
+   pip install <download_path>/python_mail-<version>.tar.gz
